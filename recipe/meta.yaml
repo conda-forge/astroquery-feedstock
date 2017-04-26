@@ -20,7 +20,7 @@ requirements:
     - astropy
     - beautifulsoup4
     - html5lib
-    - keyring  # [py2k]
+    - keyring
     - python
     - requests
     - setuptools
@@ -29,7 +29,7 @@ requirements:
     - astropy
     - beautifulsoup4
     - html5lib
-    - keyring  # [py2k]
+    - keyring
     - python
     - requests
 
