@@ -40,7 +40,7 @@ test:
 about:
   home: http://www.astropy.org/astroquery/
   license: BSD 3-clause
-  license_file: licenses/LICENSE.rst
+  license_file: LICENSE.rst
   summary: 'Functions and classes to access online astronomical data resources.'
   dev_url: https://github.com/astropy/astroquery
 
