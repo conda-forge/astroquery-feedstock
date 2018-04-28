@@ -14,14 +14,16 @@ Summary: Functions and classes to access online astronomical data resources.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/astroquery-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/astroquery-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/astroquery-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/astroquery-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/astroquery-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/astroquery-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/astroquery-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/astroquery-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/astroquery-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/astroquery-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/astroquery-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/astroquery-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/astroquery/badges/version.svg)](https://anaconda.org/conda-forge/astroquery)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/astroquery/badges/downloads.svg)](https://anaconda.org/conda-forge/astroquery)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-astroquery-green.svg)](https://anaconda.org/conda-forge/astroquery) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/astroquery.svg)](https://anaconda.org/conda-forge/astroquery) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/astroquery.svg)](https://anaconda.org/conda-forge/astroquery) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/astroquery.svg)](https://anaconda.org/conda-forge/astroquery) |
 
 Installing astroquery
 =====================
