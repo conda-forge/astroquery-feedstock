@@ -14,9 +14,8 @@ Summary: Functions and classes to access online astronomical data resources.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/astroquery-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/astroquery-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/astroquery-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/astroquery-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/astroquery-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/astroquery-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/astroquery-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/astroquery-feedstock)
 
 Current release info
 ====================
