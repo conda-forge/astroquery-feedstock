@@ -13,10 +13,12 @@ source:
 
 build:
   number: 1000
+  # Note: pip-based install fails due to wanting to download astropy-helpers
   script: python setup.py install --offline --no-git --single-version-externally-managed --record=files.txt
+  noarch: python
 
 requirements:
-  build:
+  host:
     - astropy
     - beautifulsoup4
     - html5lib
