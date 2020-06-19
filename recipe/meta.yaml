@@ -1,6 +1,6 @@
 {% set name = "astroquery" %}
-{% set version = "0.4" %}
-{% set sha256 = "30187a295f42562ff86d800080859d49fde2cae697b04296cbb3efbb93b4bcb5" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "ea90566faf2f78ea715c4141d7eba8bae7f4d775baa341712de5e90313cdf876" %}
 
 package:
   name: {{ name|lower }}
@@ -43,7 +43,7 @@ about:
   home: http://www.astropy.org/astroquery/
   license: BSD 3-clause
   license_file: LICENSE.rst
-  summary: 'Functions and classes to access online astronomical data resources.'
+  summary: Functions and classes to access online astronomical data resources.
   dev_url: https://github.com/astropy/astroquery
 
 extra:
