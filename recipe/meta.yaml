@@ -1,6 +1,6 @@
 {% set name = "astroquery" %}
-{% set version = "0.4.1" %}
-{% set sha256 = "ea90566faf2f78ea715c4141d7eba8bae7f4d775baa341712de5e90313cdf876" %}
+{% set version = "0.4.2" %}
+{% set sha256 = "7979897e61aae7034a152961cefaaaba330af66951908845dc9b5d8168ed0f0d" %}
 
 package:
   name: {{ name|lower }}
@@ -19,21 +19,18 @@ build:
 
 requirements:
   host:
-    - astropy >=3.1
-    - beautifulsoup4
-    - html5lib
-    - keyring
-    - python
-    - requests
+    - python >=3.6
     - setuptools
 
   run:
-    - astropy >=3.1
-    - beautifulsoup4
-    - html5lib
-    - keyring
-    - python
-    - requests
+    - astropy >=3.1.2
+    - beautifulsoup4 >=4.3.2
+    - html5lib >=0.999
+    - keyring >=4.0
+    - python >=3.6
+    - requests >=2.4.3
+    - pyvo >=1.1
+    - numpy >=1.15.0
 
 test:
   imports:
@@ -41,7 +38,7 @@ test:
 
 about:
   home: http://www.astropy.org/astroquery/
-  license: BSD 3-clause
+  license: BSD-3-Clause
   license_file: LICENSE.rst
   summary: Functions and classes to access online astronomical data resources.
   dev_url: https://github.com/astropy/astroquery
