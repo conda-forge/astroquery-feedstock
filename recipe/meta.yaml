@@ -19,7 +19,7 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - setuptools
 
   run:
@@ -27,7 +27,7 @@ requirements:
     - beautifulsoup4 >=4.3.2
     - html5lib >=0.999
     - keyring >=4.0
-    - python
+    - python >=3.6
     - requests >=2.4.3
     - pyvo >=1.1
     - numpy >=1.15.0
@@ -38,7 +38,7 @@ test:
 
 about:
   home: http://www.astropy.org/astroquery/
-  license: BSD 3-clause
+  license: BSD-3-Clause
   license_file: LICENSE.rst
   summary: Functions and classes to access online astronomical data resources.
   dev_url: https://github.com/astropy/astroquery
