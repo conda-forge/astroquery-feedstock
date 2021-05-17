@@ -19,21 +19,18 @@ build:
 
 requirements:
   host:
-    - astropy >=3.1
-    - beautifulsoup4
-    - html5lib
-    - keyring
     - python
-    - requests
     - setuptools
 
   run:
-    - astropy >=3.1
-    - beautifulsoup4
-    - html5lib
-    - keyring
+    - astropy >=3.1.2
+    - beautifulsoup4 >=4.3.2
+    - html5lib >=0.999
+    - keyring >=4.0
     - python
-    - requests
+    - requests >=2.4.3
+    - pyvo >=1.1
+    - numpy >=1.15.0
 
 test:
   imports:
