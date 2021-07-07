@@ -3,7 +3,7 @@ About astroquery
 
 Home: http://www.astropy.org/astroquery/
 
-Package license: BSD 3-clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/astroquery-feedstock/blob/master/LICENSE.txt)
 
