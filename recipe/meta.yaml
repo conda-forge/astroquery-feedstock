@@ -1,6 +1,6 @@
 {% set name = "astroquery" %}
-{% set version = "0.4.2" %}
-{% set sha256 = "7979897e61aae7034a152961cefaaaba330af66951908845dc9b5d8168ed0f0d" %}
+{% set version = "0.4.3" %}
+{% set sha256 = "5ee4b47089a5ba106963be22ac3a7f7387f30d932091e340243841fe77463f90" %}
 
 package:
   name: {{ name|lower }}
@@ -19,7 +19,7 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - setuptools
 
   run:
@@ -27,7 +27,7 @@ requirements:
     - beautifulsoup4 >=4.3.2
     - html5lib >=0.999
     - keyring >=4.0
-    - python >=3.6
+    - python >=3.7
     - requests >=2.4.3
     - pyvo >=1.1
     - numpy >=1.15.0
