@@ -19,7 +19,7 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - setuptools
 
   run:
@@ -27,7 +27,7 @@ requirements:
     - beautifulsoup4 >=4.3.2
     - html5lib >=0.999
     - keyring >=4.0
-    - python >=3.6
+    - python >=3.7
     - requests >=2.4.3
     - pyvo >=1.1
     - numpy >=1.15.0
