@@ -1,6 +1,6 @@
 {% set name = "astroquery" %}
-{% set version = "0.4.4" %}
-{% set sha256 = "96b62da2ebce1922df43cf338a6f85383bae88e182714e8e708923bc64b6ba63" %}
+{% set version = "0.4.5" %}
+{% set sha256 = "20002f84b61fb11ceeae408a4cd23b379490e174054ec777f946df8a3f06be1b" %}
 
 package:
   name: {{ name|lower }}
