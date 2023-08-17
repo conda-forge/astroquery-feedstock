@@ -45,7 +45,7 @@ about:
 
 extra:
   recipe-maintainers:
-    - astrofrog-conda-forge
+    - astrofrog
     - bsipocz
     - Cadair
     - guillochon
