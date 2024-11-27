@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   # Note: pip-based install fails due to wanting to download astropy-helpers
   script: python setup.py install --offline --no-git --single-version-externally-managed --record=files.txt
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - setuptools
 
   run:
-    - astropy >=4.2.1
+    - astropy-base >=4.2.1
     - beautifulsoup4 >=4.8
     - html5lib >=0.999
     - keyring >=15.0
