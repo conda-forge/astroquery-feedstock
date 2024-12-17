@@ -12,14 +12,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   # Note: pip-based install fails due to wanting to download astropy-helpers
   script: python setup.py install --offline --no-git --single-version-externally-managed --record=files.txt
   noarch: python
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools
 
   run:
@@ -27,12 +27,14 @@ requirements:
     - beautifulsoup4 >=4.8
     - html5lib >=0.999
     - keyring >=15.0
-    - python >=3.7
+    - python >={{ python_min }}
     - requests >=2.19
     - pyvo >=1.1
     - numpy >=1.18.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - astroquery
 
