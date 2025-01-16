@@ -1,6 +1,6 @@
 {% set name = "astroquery" %}
-{% set version = "0.4.7" %}
-{% set sha256 = "047fbacb0a4faec4cdb62675e919c244c1c35e661044fcbb6c9a933331747ec9" %}
+{% set version = "0.4.8" %}
+{% set sha256 = "5c11088897d9d590007d1833ca4d76314d7658bd98433c87597799db453aecb5" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   # Note: pip-based install fails due to wanting to download astropy-helpers
   script: python setup.py install --offline --no-git --single-version-externally-managed --record=files.txt
   noarch: python
