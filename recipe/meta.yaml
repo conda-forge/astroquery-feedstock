@@ -23,14 +23,14 @@ requirements:
     - setuptools
 
   run:
-    - astropy-base >=4.2.1
+    - astropy-base >=5.0
     - beautifulsoup4 >=4.8
     - html5lib >=0.999
     - keyring >=15.0
     - python >={{ python_min }}
     - requests >=2.19
-    - pyvo >=1.1
-    - numpy >=1.18.0
+    - pyvo >=1.5
+    - numpy >=1.20.0
 
 test:
   requires:
